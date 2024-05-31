@@ -1,0 +1,59 @@
+header {
+  width: 100%;
+  background-color: #1f2e35;
+  position: fixed;
+  z-index: 999;
+  .navbar {
+    width: 100%;
+    padding: 30px 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .header__logo {
+      display: flex;
+      align-items: center;
+      .header__link {
+        color: white;
+        font-size: 30px;
+        font-weight: 700;
+      }
+    }
+    .header__list {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+      .header__link {
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+      }
+    }
+    .header__btns {
+      display: flex;
+      gap: 20px;
+      .header__btn__sigIn {
+        width: 102px;
+        height: 43;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        background-color: transparent;
+        border: 1px solid white;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+      }
+      .header__btn__sigUp {
+        width: 102px;
+        height: 43;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        background-color: #02897a;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+      }
+    }
+  }
+}

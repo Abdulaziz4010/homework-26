@@ -1,0 +1,50 @@
+.hero__section {
+  width: 100%;
+
+  .hero__box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 200px 0px;
+    .hero__item {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      .hero__title {
+        width: 50%;
+        font-size: 40px;
+        font-weight: 700;
+        color: white;
+      }
+      .hero__desc {
+        width: 50%;
+        font-size: 18px;
+        font-weight: 400;
+        color: white;
+      }
+      .hero__btn-left {
+        width: 175px;
+        height: 53px;
+        color: white;
+        font-size: 16px;
+        font-weight: 700;
+        background-color: #02897a;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+      .hero__btn-right {
+        background-color: transparent;
+        color: #02897a;
+        font-size: 16px;
+        font-weight: 700;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,107 @@
+.management {
+  width: 100%;
+  .managment__box {
+    width: 100%;
+    padding: 100px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 20px;
+    .managment__card {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+      .managment__card__for {
+        font-size: 16px;
+        font-weight: 600;
+      }
+      .managment__card__title {
+        font-size: 40px;
+        font-weight: 700;
+      }
+      .managment__card__desc {
+        width: 60%;
+        line-height: 30px;
+      }
+      .managment__info {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+    }
+  }
+  .support {
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    gap: 300px;
+    .managment__card {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+      h4 {
+        font-size: 16px;
+        font-weight: 600;
+      }
+      h2 {
+        font-size: 40px;
+        font-weight: 700;
+      }
+      p {
+        width: 100%;
+        line-height: 25px;
+      }
+      .support__desc {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .oreng__box {
+          width: 65%;
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          .oreng {
+            width: 40px;
+            height: 35px;
+            border-radius: 30%;
+            background-color: orange;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .red {
+            width: 40px;
+            height: 35px;
+            border-radius: 30%;
+            background-color: #f03e3d;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .blue {
+            width: 40px;
+            height: 35px;
+            border-radius: 30%;
+            background-color: #4d8dff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+}
