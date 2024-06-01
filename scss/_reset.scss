@@ -7,9 +7,17 @@
   font-family: sans-serif;
 }
 
-main {
+.container {
   background-color: #1f2e35;
-  // height: 100%;
   padding: 0 250px;
+  color: white;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  background-color: #1f2e35;
   color: white;
 }

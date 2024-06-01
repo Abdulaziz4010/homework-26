@@ -1,8 +1,8 @@
 header {
   width: 100%;
   background-color: #1f2e35;
-  position: fixed;
-  z-index: 999;
+  position: sticky;
+  top: 0;
   .navbar {
     width: 100%;
     padding: 30px 250px;
@@ -42,6 +42,10 @@ header {
         font-size: 16px;
         font-weight: 600;
         cursor: pointer;
+        &:hover {
+          background-color: white;
+          color: #02897a;
+        }
       }
       .header__btn__sigUp {
         width: 102px;
@@ -53,6 +57,10 @@ header {
         font-size: 16px;
         font-weight: 600;
         cursor: pointer;
+        &:hover {
+          background-color: #fff;
+          color: #02897a;
+        }
       }
     }
   }

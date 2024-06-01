@@ -1,0 +1,40 @@
+.join {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 200px;
+  .join__cards {
+    width: 60%;
+    background-color: #02897a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 50px;
+    .join__card {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      .join__title {
+        width: 80%;
+        line-height: 60px;
+        font-size: 40px;
+        font-weight: 700;
+      }
+      .join__card__btn {
+        width: 170px;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 10px;
+        font-size: 22px;
+        font-weight: 800;
+        &:hover {
+          background-color: #028924;
+          color: white;
+        }
+      }
+    }
+  }
+}

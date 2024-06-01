@@ -4,15 +4,13 @@
   .hero__box {
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 200px 0px;
     .hero__item {
+      // width: 30%;
       display: flex;
       flex-direction: column;
       gap: 20px;
       .hero__title {
-        width: 50%;
         font-size: 40px;
         font-weight: 700;
         color: white;
@@ -34,6 +32,10 @@
         outline: none;
         border-radius: 8px;
         cursor: pointer;
+        &:hover {
+          background-color: #fff;
+          color: #02897a;
+        }
       }
       .hero__btn-right {
         background-color: transparent;
@@ -45,6 +47,9 @@
         border-radius: 8px;
         cursor: pointer;
       }
+    }
+    .hero__img {
+      flex: 1;
     }
   }
 }

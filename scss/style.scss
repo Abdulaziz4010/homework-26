@@ -5,6 +5,15 @@
 @use "./management";
 @use "./quick";
 @use "./contents";
-@use "./table";
-@use "./clients";
+@use "./pricing-hero";
+@use "./join";
 @use "./footer";
+
+// PRICING PAGES
+
+@use "./pricing-hero";
+@use "./pricing-enterprise";
+@use "./pricing-Product";
+@use "./pricing-ourFaq";
+@use "./join";
+@use "./pricing__footer";
