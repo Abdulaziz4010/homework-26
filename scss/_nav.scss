@@ -5,14 +5,14 @@ header {
   top: 0;
   .navbar {
     width: 100%;
-    padding: 30px 250px;
+    padding: 30px 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     .header__logo {
       display: flex;
       align-items: center;
-      .header__link {
+      .header__logo__link {
         color: white;
         font-size: 30px;
         font-weight: 700;
