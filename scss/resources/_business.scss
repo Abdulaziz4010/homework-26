@@ -1,0 +1,355 @@
+.business {
+  width: 100%;
+  .business__box {
+    width: 100%;
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+    // flex-wrap: wrap;
+  }
+  &__inform {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  &__inform__title {
+    width: 400px;
+    font-size: 40px;
+    color: white;
+  }
+  &__inform__desc {
+    width: 540px;
+    color: white;
+    font-size: 18px;
+    // font-weight: 200;
+    line-height: 30px;
+  }
+  &__input {
+    width: 70%;
+    background-color: transparent;
+    border: 1px solid #eaeaea;
+    border-radius: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  &__input1 {
+    width: 80%;
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+  }
+  &__input__btn {
+    width: 120px;
+    padding: 14px;
+    border-radius: 60px;
+    border: none;
+    background-color: #02897a;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  &__img {
+    width: 350px;
+  }
+  &__right {
+    width: 50%;
+    order: 1;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+  .business {
+    .business__box {
+      display: flex;
+      gap: 50px;
+      .business__inform {
+        display: flex;
+        gap: 30px;
+      }
+      .business__inform__title {
+        font-size: 35px;
+      }
+      .business__inform__desc {
+        font-size: 18px;
+        line-height: 22px;
+      }
+      .business__input {
+        width: 80%;
+        padding: 5px;
+      }
+      .business__img {
+        width: 50%;
+        margin-top: 20px;
+      }
+      .business__right {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1300px) {
+  .business {
+    .business__box {
+      display: flex;
+      gap: 50px;
+      .business__inform {
+        display: flex;
+        gap: 20px;
+      }
+      .business__inform__title {
+        font-size: 30px;
+      }
+      .business__inform__desc {
+        font-size: 16px;
+        line-height: 22px;
+      }
+      .business__input {
+        width: 70%;
+        padding: 1px;
+        .business__input1 {
+          font-size: 18px;
+          padding: 8px;
+        }
+        .business__input__btn {
+          width: 40%;
+          font-size: 15px;
+          padding: 10px 22px;
+        }
+      }
+      .business__img {
+        width: 50%;
+        margin-top: 10px;
+      }
+      .business__right {
+        width: 50%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1170px) {
+  .business {
+    .business__box {
+      display: flex;
+      gap: 30px;
+      .business__inform {
+        display: flex;
+        gap: 20px;
+      }
+      .business__inform__title {
+        font-size: 25px;
+      }
+      .business__inform__desc {
+        width: 100%;
+        font-size: 15px;
+        line-height: 22px;
+      }
+      .business__input {
+        width: 70%;
+        padding: 1px;
+      }
+      .business__img {
+        width: 50%;
+        margin-top: 10px;
+      }
+      .business__right {
+        width: 50%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1070px) {
+  .business {
+    .business__box {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      .business__inform {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        order: 1;
+      }
+      .business__inform__title {
+        font-size: 25px;
+      }
+      .business__inform__desc {
+        width: 100%;
+        font-size: 15px;
+        line-height: 22px;
+      }
+      .business__input {
+        width: 70%;
+        padding: 1px;
+        .business__input1 {
+          font-size: 12px;
+        }
+        .business__input__btn {
+          width: 50%;
+          font-size: 12px;
+          padding: 5px;
+        }
+      }
+      .business__img {
+        width: 50%;
+        margin-top: 10px;
+      }
+      .business__right {
+        width: 50%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 976px) {
+  .business {
+    .business__box {
+      display: flex;
+      gap: 30px;
+      .business__inform {
+        display: flex;
+        gap: 20px;
+      }
+      .business__inform__title {
+        font-size: 25px;
+      }
+      .business__inform__desc {
+        width: 100%;
+        font-size: 15px;
+        line-height: 22px;
+      }
+      .business__input {
+        width: 70%;
+        padding: 1px;
+        .business__input1 {
+          font-size: 15px;
+        }
+        .business__input__btn {
+          font-size: 15px;
+          padding: 7px;
+        }
+      }
+      .business__img {
+        width: 50%;
+        margin-top: 10px;
+      }
+      .business__right {
+        width: 50%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .business {
+    .business__box {
+      display: flex;
+      gap: 30px;
+      .business__inform {
+        display: flex;
+        gap: 20px;
+      }
+      .business__inform__title {
+        width: 100%;
+        font-size: 22px;
+      }
+      .business__inform__desc {
+        width: 100%;
+        font-size: 13px;
+        line-height: 20px;
+      }
+      .business__input {
+        width: 70%;
+        padding: 1px;
+        .business__input1 {
+          font-size: 11px;
+        }
+        .business__input__btn {
+          font-size: 11px;
+          padding: 5px;
+        }
+      }
+      .business__img {
+        width: 50%;
+        margin-top: 10px;
+      }
+      .business__right {
+        width: 50%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .business {
+    .business__box {
+      width: 100%;
+      display: flex;
+      gap: 20px;
+      .business__inform {
+        display: flex;
+        gap: 20px;
+      }
+      .business__inform__title {
+        width: 100%;
+        font-size: 22px;
+      }
+      .business__inform__desc {
+        width: 100%;
+        font-size: 13px;
+        line-height: 20px;
+      }
+      .business__input {
+        width: 70%;
+        padding: 1px;
+        .business__input1 {
+          font-size: 8px;
+        }
+        .business__input__btn {
+          font-size: 8px;
+          padding: 2px;
+        }
+      }
+      .business__img {
+        width: 50%;
+        margin-top: 10px;
+      }
+      .business__right {
+        width: 50%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
