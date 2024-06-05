@@ -1,0 +1,129 @@
+.contactUs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 100px;
+  &__title {
+    font-size: 34px;
+    font-weight: 700;
+    color: white;
+  }
+  &__desc {
+    width: 20%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+  }
+  &__icon {
+    display: flex;
+    gap: 30px;
+    span {
+      i {
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        font-size: 32px;
+        color: #02897a;
+      }
+    }
+  }
+  &__form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #22343d;
+    padding: 30px;
+    border: 1px solid #464646;
+    border-radius: 20px;
+  }
+  &__form__title {
+    text-align: center;
+    font-size: 28px;
+    color: white;
+  }
+  &__input {
+    padding: 18px;
+    font-size: 16px;
+    border-radius: 30px;
+    border: none;
+  }
+  &__textarea {
+    padding: 20px;
+    font-size: 16px;
+    resize: none;
+  }
+  &__btn {
+    width: 150px;
+    padding: 14px;
+    font-size: 18px;
+    border: none;
+    border-radius: 60px;
+    background-color: #02897a;
+    color: white;
+    cursor: pointer;
+    &:hover {
+      background-color: white;
+      color: #02897a;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .contactUs {
+    &__title {
+      font-size: 28px;
+    }
+    &__desc {
+      width: 25%;
+      font-size: 16px;
+    }
+    &__form {
+      width: 50%;
+    }
+  }
+}
+
+@media (max-width: 1110px) {
+  .contactUs {
+    &__title {
+      font-size: 28px;
+    }
+    &__desc {
+      width: 28%;
+      font-size: 16px;
+    }
+    &__form {
+      width: 90%;
+    }
+    iframe {
+      width: 90%;
+    }
+  }
+}
+
+@media (max-width: 756px) {
+  .contactUs {
+    &__title {
+      font-size: 28px;
+    }
+    &__desc {
+      width: 39%;
+      font-size: 16px;
+    }
+    &__form {
+      width: 90%;
+    }
+    iframe {
+      width: 90%;
+    }
+  }
+}
